@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>個人網站</title>
+	</head>
+	<style >
+	img.logo{
+	width: 300px;
+	height: 150px;
+	float:left;
+		}
+		div.view{
+			width:160px;
+			height:120px;
+			float:right;
+			text-align: center;
+		}
+		
+		nav.top{
+			width: 1500px;
+			height:100px;
+			
+		}
+
+		a{
+	font-size: 30px;
+	color: black;
+	text-decoration:none;
+	font-family: 微軟正黑體;
+		}
+		
+		img.banner{
+			width: 1450px;
+			height:600px;
+			padding-left: -30%;
+			left: -950px;
+	top: 330px;
+	border-style: double;
+	 border-width: 15px;
+	  background: #008B8B;
+
+		}
+		div.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+	div.pic img:hover{transform:scale(1.2,1.2);}
+
+		img.ab{
+			width: 200px;
+			height:200px;
+			position:absolute;
+			top: -30px;
+			left: 350px;
+		}
+		img.co{
+			width: 220px;
+			height:220px;
+			position:absolute;
+			top: -25px;
+			left: 510px;
+		}
+		img.ho{
+			width: 200px;
+			height:200px;
+			position:absolute;
+			top: -15px;
+			left: 650px;
+		}
+		img.g{
+			width: 150px;
+			height:140px;
+			position:absolute;
+			top: 0px;
+			left: 850px;
+		}
+		img.a{
+			width: 170px;
+			height:170px;
+			position:absolute;
+			top: -5px;
+			left: 1000px;
+		}
+		img.w{
+			width: 210px;
+			height:210px;
+			position:absolute;
+			top: -20px;
+			left: 1150px;
+		}
+		img.my{
+			width: 175px;
+			height:175px;
+			position:absolute;
+			top: -10px;
+			left: 1300px;
+		}
+		
+		img.yu{
+			height: 450px;
+			width: 400px;
+			padding-left: 90%;
+			position:absolute;
+			left: -950px;
+	top: 830px;
+		}
+		img.pink
+		{
+			
+			width:980px;
+			height: 700px;
+			float: left;
+			position:absolute;
+	left: -30px;
+	top: 790px;
+	z-index: -1;
+		}
+		
+		a.me{
+			color: white;
+			text-align:left;
+			float: left;
+			font-family:微軟正黑體;
+			font-size: 23px;
+			font-weight:bold;
+			padding-left: 5%;
+			position:absolute;
+			left: 90px;
+	top: 890px;
+		}
+			
+			
+		aside.Contact{
+			font-family:微軟正黑體;
+			font-size: 25px;
+			font-weight:bold;
+			text-align: left;
+					float: right;
+					padding-left: 63%;
+			position:absolute;
+					left: 90px;
+	top: 890px;
+		}
+		img.fb{
+			height: 30px;
+			width: 30px;
+		}
+		img.ig1{
+			height: 30px;
+			width: 30px;
+			
+		}
+		img.blue
+		{
+		width:680px;
+			height: 650px;
+			float: left;
+			position:absolute;
+	left: 780px;
+	top: -60px;
+	z-index: -1;
+			}
+		div.Hobby{
+			font-family:微軟正黑體;
+			
+			text-align:left;
+			float: left;
+			
+			font-size: 23px;
+			font-weight:bold;
+			padding-left: 13%;
+			position:absolute;
+			left: 80px;
+	top: 1490px;
+			
+			
+		}
+		
+		
+		
+		img.yellow{
+			width:580px;
+			height: 500px;
+			float: left;
+			position:absolute;
+	left: -40px;
+	top: -50px;
+	z-index: -1;
+	
+		}
+		img.pink1{
+			width:980px;
+			height: 500px;
+			float: left;
+			position:absolute;
+	left: 600px;
+	top: -35px;
+	z-index: -1;
+		}
+		div.Goal{
+			font-family:微軟正黑體;
+				color: white;
+			text-align:left;
+			float:right;
+			
+			font-size: 25px;
+			font-weight:bold;
+			padding-left: 55%;
+			position:absolute;
+			left: -60px;
+	top: 1490px;
+			
+			
+		}
+		img.blue1
+		{
+			
+			width:1680px;
+			height: 800px;
+			float: left;
+			position:absolute;
+	left: -30px;
+	top: -50px;
+	z-index: -1;
+		}
+		div.Activity{
+			font-family:微軟正黑體;
+				
+			text-align:left;
+			float:right;
+			
+			font-size: 23px;
+			font-weight:bold;
+			padding-left: 30%;
+			position:absolute;
+			left: -60px;
+	top: 2000px;
+		}
+		img.a1{
+			height: 300px;
+			width: 350px;
+			padding-left: 130%;
+			position:absolute;
+			left: -1350px;
+	top: 260px;
+
+
+		}
+		img.a2{
+			height: 300px;
+			width: 350px;
+			padding-left: 165%;
+			position:absolute;
+			left: -1350px;
+	top: 260px;
+	
+		}
+		div.work{
+			font-family:微軟正黑體;
+				
+			text-align:left;
+			float:right;
+			
+			font-size: 23px;
+			font-weight:bold;
+			padding-left: 35%;
+			position:absolute;
+			left: -60px;
+	top: 2800px;
+		}
+		img.yellow2
+		{
+			
+			width:1680px;
+			height: 800px;
+			float: left;
+			position:absolute;
+	left: -30px;
+	top: -50px;
+	z-index: -1;
+		}
+		img.w1{
+			height: 300px;
+			width: 350px;
+			padding-left: 130%;
+			position:absolute;
+			left: -750px;
+	top: 250px;
+
+		}
+
+		 img.top{
+			width:150px;
+			height:150px;
+		}
+		div.top{
+			position: fixed;
+			bottom: 70px;
+			right: 50px;
+			width:80px;
+			height:80px;
+			
+		}
+		div.top:hover{
+			position: fixed;
+			bottom: 70px;
+			right:50px;
+			width:80px;
+			height:80px;
+			
+		}
+		div.mylife{
+			font-family:微軟正黑體;
+			text-align:left;
+			float:left;
+			
+			font-size: 30px;
+			font-weight:bold;
+			position:absolute;
+			left: 80px;
+	top: 3500px;
+	 border-style: double;
+	 border-width: 15px;
+	 background: 	#FFD700;
+
+		}
+		img.L1{
+			position:absolute;
+			left: 0px;
+	top: 200px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#FFD700;
+
+		}
+		img.L2{
+			position:absolute;
+			left: 475px;
+	top: 200px;
+	border-style: double;
+	 border-width: 15px;
+	 background: #008B8B;
+
+		}
+		img.L3{
+			position:absolute;
+			left: 950px;
+	top: 200px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#FFD700;
+
+		}
+
+
+		footer{
+			width: 1280%;
+			height: 70px;
+			background-color:#B0E0E6;
+			color: white;
+			text-align: center;
+			padding-top: 2%;
+			position:absolute;
+	
+	top: 2500px;
+	left: -100px;
+		}
+
+		
+
+
+		
+
+		
+		
+		
+			
+	
+		
+		
+	
+	</style>
+	<body>
+		<body bgcolor="	#FFFFE0">
+			
+			<section>
+				<center>
+				<nav class="top"  id="top">
+					<div><img src="my logo.png" class="logo"></div>
+					
+					<a href="#mylife"><div class="view"><div class="pic"><img src="my.png" class="my"></div></a>
+					
+					<a href="#work"><div class="view"><div class="pic"><img src="w.png" class="w"></div></a>
+					<a href="#Activity"><div class="view"><div class="pic"><img src="a.png" class="a"></div></a>
+					<a href="#Goal&Wish"><div class="view"><div class="pic"><img src="g.png" class="g"></div></a>
+					<a href="#Hobby"><div class="view"><div class="pic"><img src="ho.png" class="ho"></div></a>
+					<a href="#Contact"><div class="view"><div class="pic"><img src="co.png" class="co"></div></a>
+					<a href="#about me"><div class="view"><div class="pic"><img src="ab.png" class="ab"></div></a>
+				</nav>
+				</center>
+				<center>
+			<header><img src="banner.png" class="banner"></header>
+			</center>
+			<center>
+			<div class="aboutme" id="about me">
+				<img src="pink.png" class="pink">
+				<img src="yu.png" class="yu">
+				<a class="me"><h2>個人資料</h2>
+					<p> 姓名:余茗雅</p>
+					<p>生日:88/11/23</p>
+					<p>系級:資管二甲</p>
+					<p>星座:射手座</p>
+					<P>學歷:平鎮國中~平鎮高中~中原大學</P>
+					<p>座右銘:別在最能吃苦的年紀</p>
+					<p>選擇了安逸  _____馬雲</p>
+				</a></c></center>
+				<center>
+				<aside class="Contact" id="Contact">
+					<img src="blue.png" class="blue">
+					<h1>聯絡資訊</h1>
+					<p>電話: 0981780421</p>
+					<p>地址: 桃園市平鎮區崇德街10巷9號</p>
+					<p>e-mail:Lydia95061@gmail.com</p>
+					<p>Line ID:amy95061</p>
+					<p><div class="pic"><a href="https://www.facebook.com/profile.php?id=100003393009271"><img src="fb.png" class="fb">:余茗雅</a></p>
+					<p><div class="pic"><a href="https://www.instagram.com/?hl=zh-tw"><img src="ig1.png" class="ig1">:yu11.23</a></p>
+				</a></aside></center>
+				<center>
+				<div class="Hobby" id="Hobby">
+					<img src="yellow.png" class="yellow">
+					
+					<h1>興趣</h1>
+					<p>追劇<br>
+						<p>吹長笛<br>
+							<p>聽音樂<br>
+								<p>唱歌<br>
+								<p>睡覺</div></center>
+								<center>
+								<center>
+								<div class="Goal" id="Goal&Wish">
+									<img src="pink1.png" class="pink1">
+									
+									<h1>目標與自我期許</h1>
+									<p>希望大學四年可以很順利的過去，</p>
+									<p>也能過得很充實，更把握著青春的尾巴，
+										<p>也能順利地達到畢業門檻，
+											<p>也把程式學好，讓將來能學以致用。</p>
+											
+											
+											
+										</div></center>
+										<center>
+										<div class="Activity" id="Activity">
+											<img src="blue1.png" class="blue1">
+											<img src="a1.jpg" class="a1">
+											<img src="a2.jpg" class="a2">
+											<h2>活動經驗</h2>
+											<p>在大一的時候參加很多系學會所辦的活動，尤其是迎新宿營更是讓我印象深刻，</p>
+											<p>也想把這如此美好的回憶帶給下一屆，於是參加系學會加入了活動股，</p>
+											<p>而今年的迎新宿營當了隊輔，雖然在練習的時候很累很辛苦，但現在回想起來卻覺得很值得。</p>
+												
+												</center>
+												<center>
+										<div class="work" id="work">
+											<img src="yellow2.png" class="yellow2">
+											
+											<h2>打工經驗</h2>
+											<img src="w1.jpg" class="w1">
+											<p>目前在王品集團旗下的品田牧場打工，到目前為止已經做了九個多月，</p>
+											<p>
+											
+												
+												</center>
+												<center>
+												<div class="mylife" id="mylife">
+												<p>生活紀錄</p>
+												<div class="pic"><img src="L1.jpg" class="L1"  width="400" height="300"></div>
+												<div class="pic"><img src="L2.jpg" class="L2"  width="400" height="300"></div>
+												<div class="pic"><img src="L3.jpg" class="L3"  width="400" height="300"></div>
+
+												
+
+												<a href="#top"><div class="top"><img src="top.png" class="top"></div></a>
+
+												<footer></footer>
+		</section>
+												
+												
