@@ -1,0 +1,442 @@
+img.logo{
+	width: 300px;
+	height: 150px;
+	float:left;
+		}
+		div.all{
+			width:160px;
+			height:120px;
+			float:right;
+			text-align: center;
+		}
+		
+		nav.all{
+			width: 1500px;
+			height:100px;
+			
+		}
+
+		a{
+	font-size: 30px;
+	color: black;
+	text-decoration:none;
+	font-family: 微軟正黑體;
+		}
+		
+		img.banner{
+			width: 1450px;
+			height:600px;
+			padding-left: -30%;
+			left: -950px;
+	top: 330px;
+	border-style: double;
+	 border-width: 15px;
+	  background: #008B8B;
+
+		}
+		div.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+	div.pic img:hover{transform:scale(1.2,1.2);}
+
+		img.ab{
+			width: 200px;
+			height:200px;
+			position:absolute;
+			top: -30px;
+			left: 350px;
+		}
+		img.co{
+			width: 220px;
+			height:220px;
+			position:absolute;
+			top: -25px;
+			left: 510px;
+		}
+		img.ho{
+			width: 200px;
+			height:200px;
+			position:absolute;
+			top: -15px;
+			left: 650px;
+		}
+		img.g{
+			width: 150px;
+			height:140px;
+			position:absolute;
+			top: 0px;
+			left: 850px;
+		}
+		img.a{
+			width: 170px;
+			height:170px;
+			position:absolute;
+			top: -5px;
+			left: 1000px;
+		}
+		img.w{
+			width: 210px;
+			height:210px;
+			position:absolute;
+			top: -20px;
+			left: 1150px;
+		}
+		img.my{
+			width: 175px;
+			height:175px;
+			position:absolute;
+			top: -10px;
+			left: 1300px;
+		}
+		
+		img.yu{
+			height: 450px;
+			width: 400px;
+			padding-left: 90%;
+			position:absolute;
+			left: -950px;
+	top: 830px;
+		}
+		img.pink
+		{
+			
+			width:980px;
+			height: 700px;
+			float: left;
+			position:absolute;
+	left: -30px;
+	top: 790px;
+	z-index: -1;
+		}
+		
+		a.me{
+			color: white;
+			text-align:left;
+			float: left;
+			font-family:微軟正黑體;
+			font-size: 27px;
+			font-weight:bold;
+			padding-left: 8%;
+			position:absolute;
+			left: 90px;
+	top: 890px;
+		}
+			
+			
+		aside.Contact{
+			font-family:微軟正黑體;
+			font-size: 25px;
+			font-weight:bold;
+			text-align: left;
+					float: right;
+					padding-left: 63%;
+			position:absolute;
+					left: 90px;
+	top: 890px;
+		}
+		img.fb{
+			height: 30px;
+			width: 30px;
+		}
+		img.ig1{
+			height: 30px;
+			width: 30px;
+			
+		}
+		img.blue
+		{
+		width:680px;
+			height: 650px;
+			float: left;
+			position:absolute;
+	left: 780px;
+	top: -60px;
+	z-index: -1;
+			}
+		div.Hobby{
+			font-family:微軟正黑體;
+			
+			text-align:left;
+			float: left;
+			
+			font-size: 23px;
+			font-weight:bold;
+			padding-left: 13%;
+			position:absolute;
+			left: 180px;
+	top: 1520px;
+			
+			
+		}
+		aside.haha{
+			font-family:微軟正黑體;
+				
+			text-align:left;
+			float:right;
+			font-size: 35px;
+			font-weight:bold;
+			padding-left: 20%;
+			position:absolute;
+			left: 580px;
+	top: 1490px;
+		}
+		img.haha1{
+			height: 530px;
+			width: 450px;
+			padding-left: 15%;
+			position:absolute;
+			left: -103px;
+	top: -66px;
+		}
+		
+		
+		
+		img.yellow{
+			width:580px;
+			height: 500px;
+			float: left;
+			position:absolute;
+	left: -40px;
+	top: -50px;
+	z-index: -1;
+	
+		}
+		div.Goal{
+			font-family:微軟正黑體;
+				color: white;
+			text-align:left;
+			float:right;
+			
+			font-size: 26px;
+			font-weight:bold;
+			padding-left: 65%;
+			position:absolute;
+			left: -500px;
+	top: 1990px;
+			
+			
+		}
+		img.pink1
+		{
+			
+			width:1580px;
+			height: 680px;
+			float: left;
+			position:absolute;
+	left:470px;
+	top: -80px;
+	z-index: -1;
+		}
+		
+		
+		div.Activity{
+			font-family:微軟正黑體;
+				
+			text-align:left;
+			float:right;
+			
+			font-size: 23px;
+			font-weight:bold;
+			padding-left: 25%;
+			position:absolute;
+			left: -40px;
+	top: 2650px;
+		}
+		img.a1{
+			height: 300px;
+			width: 350px;
+			padding-left: 130%;
+			position:absolute;
+			left: -1350px;
+	top: 290px;
+
+
+		}
+		img.a2{
+			height: 300px;
+			width: 350px;
+			padding-left: 165%;
+			position:absolute;
+			left: -1350px;
+	top: 290px;
+	
+		}
+		img.blue1
+		{
+			
+			width:1600px;
+			height: 800px;
+			float: left;
+			position:absolute;
+	left: -30px;
+	top: -50px;
+	z-index: -1;
+		}
+		
+
+
+		
+		div.work{
+			font-family:微軟正黑體;
+				
+			text-align:left;
+			float:right;
+			
+			font-size: 23px;
+			font-weight:bold;
+			padding-left: 25%;
+			position:absolute;
+			left: -60px;
+	top: 3460px;
+		}
+		img.yellow2
+		{
+			
+			width:1700px;
+			height: 620px;
+			float: left;
+			position:absolute;
+	left: -30px;
+	top: -50px;
+	z-index: -1;
+		}
+		img.w1{
+			height: 300px;
+			width: 350px;
+			padding-left: 130%;
+			position:absolute;
+			left: -330px;
+	top: 90px;
+
+		}
+
+		 img.top{
+			width:150px;
+			height:150px;
+		}
+		div.top{
+			position: fixed;
+			bottom: 70px;
+			right: 50px;
+			width:80px;
+			height:80px;
+			z-index: 1;
+			
+		}
+		div.top:hover{
+			position: fixed;
+			bottom: 70px;
+			right:50px;
+			width:80px;
+			height:80px;
+			
+		}
+		div.mylife{
+			font-family:微軟正黑體;
+			text-align:left;
+			float:left;
+			
+			font-size: 30px;
+			font-weight:bold;
+			position:absolute;
+			left: 80px;
+	top: 4000px;
+	 border-style: double;
+	 border-width: 15px;
+	 background: 	#FFD700;
+
+		}
+		
+		img.L1{
+			position:absolute;
+			left: 0px;
+	top: 200px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#FFD700;
+
+		}
+		img.L2{
+			position:absolute;
+			left: 475px;
+	top: 200px;
+	border-style: double;
+	 border-width: 15px;
+	 background: #008B8B;
+
+		}
+		img.L3{
+			position:absolute;
+			left: 950px;
+	top: 200px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#FF1493;
+
+		}
+		img.L4{
+			position:absolute;
+			left: 0px;
+	top: 570px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#FF1493;
+
+		}
+		img.L5{
+			position:absolute;
+			left: 475px;
+	top: 570px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#FFD700;
+
+		}
+		img.L6{
+			position:absolute;
+			left: 950px;
+	top: 570px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#008B8B;
+
+		}
+		img.L7{
+			position:absolute;
+			left: 0px;
+	top: 940px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#008B8B;
+
+		}
+		img.L8{
+			position:absolute;
+			left: 475px;
+	top: 940px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#FF1493;
+
+		}
+		img.L9{
+			position:absolute;
+			left: 950px;
+	top: 940px;
+	border-style: double;
+	 border-width: 15px;
+	 background:#FFD700;
+
+		}
+
+
+		footer{
+			width: 1280%;
+			height: 50px;
+			background-color:#B0E0E6;
+			color: white;
+			text-align: center;
+			padding-top: 2%;
+			position:absolute;
+	
+	top: 1400px;
+	left: -100px;
+		}
